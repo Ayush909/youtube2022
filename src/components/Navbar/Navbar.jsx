@@ -21,7 +21,7 @@ import classes from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <>
-      <AppBar sx={{ background: "#fff", color: "#000" }}>
+      <AppBar position="static" sx={{ background: "#fff", color: "#000" }}>
         <Toolbar sx={{ justifyContent: "space-between" }}>
           <Box className={classes.left}>
             <Box className={classes.item}>
