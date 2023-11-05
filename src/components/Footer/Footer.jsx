@@ -46,7 +46,7 @@ const Footer = () => {
       </Box>
       <Box className={classes.bottom}>
         <Box className={classes.left}>
-          <span className={classes.logo}>StyleStore</span>
+          <span className={classes.logo}>Classy Closet</span>
           <span className={classes.copyright}>
             {" "}
             © Copyright 2023. All Rights Reserved

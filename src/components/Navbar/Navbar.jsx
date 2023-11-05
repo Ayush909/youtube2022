@@ -46,8 +46,8 @@ const Navbar = () => {
           </Box>
 
           <Box className={classes.center}>
-            <Link className="link" to="\">
-              STYLE STORE
+            <Link className="link" to="/">
+              CLASSY CLOSET
             </Link>
           </Box>
 
