@@ -24,8 +24,6 @@ const Slider = () => {
     setCurrentSlide(currentSlide === 2 ? 0 : (prevSlide) => prevSlide + 1);
   };
 
-  console.log(currentSlide);
-
   return (
     <div className={classes.slider}>
       <div

@@ -6,10 +6,12 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 const Layout = () => {
   return (
     <div className="app">
+      <ScrollToTop />
       <Navbar />
       <Outlet />
       <Footer />
